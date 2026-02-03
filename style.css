@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=TASA+Orbiter:wght@400..800&display=swap');
+
+:root {
+  --primary-color: #d75858;
+  --accent-color: #bf4e4e;
+  --bg-color: #a74444;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+}
+
+p {
+  font-family: "TASA Orbiter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.custom-container {
+  width: 100%;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
