@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Kablammo&family=Limelight&family=TASA+Orbiter:wght@400..800&display=swap");
+
+:root {
+  --primary-color: #d75858;
+  --accent-color: #bf4e4e;
+  --bg-color: #fce4ec ;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-container {
+  width: 100%;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.custom-container-form {
+  width: 100%;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.custom-font-header {
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  margin: 20px;
+}
+
+.custom-font-paragraph {
+  font-family: "TASA Orbiter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.custom-font-divider {
+  font-family: "Kablammo", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "MORF" 0;
+}
