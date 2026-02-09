@@ -6,7 +6,7 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
 
-    <title>Artwork</title>
+    <title>Admin</title>
 
     <!-- Custom favicon-->
     <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
@@ -21,46 +21,26 @@
           <a href="/index.html" class="brand-logo waves-effect waves-light left">
             <img src="/images/Logo.png" alt="Logo" width="60px" height="60px"/></a>
           <ul id="nav-mobile" class="right">
-            <li><a href="/index.html">Home</a></li>
+            <li><a href="./index.html">Home</a></li>
             <li><a href="./artwork.html">Artworks</a></li>
-            <li><a href="/services.html">Services</a></li>
-            <li><a href="./admin.html">Login (Admin only)</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./admin.php">Login (Admin only)</a></li>
           </ul>
         </div>
       </nav>
     </div>
 
-    <!-- CONTENT -->
-    <div class="custom-container pink lighten-5">
-        <div class="row">
-            <!-- FIRST ELEMENT -->
-            <div class="col s12 m6 left center-align">
-              <br><br><br>
-              <h2><span class="custom-font-header">Eyaart Gallery</span></h2>
-              <p><span class="custom-font-paragraph">A place to slow down, look closer,<br> 
-              and enjoy art that feels light, curious, and alive.</span></p>
-              <br><br><br>
-            </div>
-            <div class="col hide-on-small-only m6 right">
-              <div class="carousel">
-                <a class="carousel-item" href="#one!"><img src="/images/Logo.png"></a>
-                <a class="carousel-item" href="#two!"><img src="/images/Logo.png"></a>
-                <a class="carousel-item" href="#three!"><img src="/images/Logo.png"></a>
-                <a class="carousel-item" href="#four!"><img src="/images/Logo.png"></a>
-                <a class="carousel-item" href="#five!"><img src="/images/Logo.png"></a>
-              </div>
-            </div>
-
-            <!-- SECOND ELEMENT [DIVIDER] -->
-            <div class="col s12 pink lighten-2">
-              <span class="s12 center-align custom-font-divider"><h3>Eyaart</h3></span>
-              <br>
-            </div>
-
-            <!-- THIRD ELEMENT -->
-            <div id="gallery"></div>
-            <!-- END -->
-        </div>
+    <!-- Form -->
+    <div class="custom-container-form center">
+      <br><br><br><br><br>
+        <form action="authenticate.php" method="POST">
+          <h2>Admin Login</h2>
+          <span class="text-center"><input type="text" name="username" placeholder="Username" required></span>
+          <span class="text-center"><input type="password" name="password" placeholder="Password" required></span>
+          <br><br><br>
+          <button class="btn pink" name="signIn">Login</button>
+      </form>
+      <br><br><br><br><br>
     </div>
 
     <!-- Footer -->
@@ -99,6 +79,6 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/e67fb123be.js" crossorigin="anonymous"></script>
     <!-- Custom JavaScript -->
-    <script src="artwork.js"></script>
+    <script src="#.js"></script>
   </body>
 </html>

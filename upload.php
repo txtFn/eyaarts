@@ -1,3 +1,8 @@
+<?php
+session_start();
+include("connect.php");
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -21,10 +26,10 @@
           <a href="/index.html" class="brand-logo waves-effect waves-light left">
             <img src="/images/Logo.png" alt="Logo" width="60px" height="60px"/></a>
           <ul id="nav-mobile" class="right">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="/Login/artwork.html">Artworks</a></li>
-            <li><a href="/services.html">Services</a></li>
-            <li><a href="/Login/admin.html">Login (Admin only)</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./artwork.html">Artworks</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./admin.php">Login (Admin only)</a></li>
           </ul>
         </div>
       </nav>
