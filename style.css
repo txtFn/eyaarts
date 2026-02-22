@@ -17,6 +17,7 @@ body {
   margin-right: 0 !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
+  background-color: #fff1e6;
 }
 
 .custom-container-form {
@@ -50,4 +51,9 @@ body {
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "MORF" 0;
+}
+
+.custom-primary-color {
+  background-color: #922c22;
+  color: white;
 }
